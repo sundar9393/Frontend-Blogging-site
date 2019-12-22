@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+
+#btn1 {
+    display: block;
+    margin: auto;
+}
+
+#btn2 {
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#post_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.post_btn {
+
+    background-color: yellow;
+    color: black;
+    margin: 5px;
+    font-size: 15px;
+    padding: 8px;
+    width: 100px;
+    font-family: Arial;
+}
+
+#createpost_btn{
+    background-color: green;
+    color: white;
+    display: block;
+    margin: auto;
+    border: none;
+}

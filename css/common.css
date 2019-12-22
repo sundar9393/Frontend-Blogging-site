@@ -1,0 +1,29 @@
+#logo {
+    font-family: 'Montez', cursive; 
+    font-weight: bold;
+    color: blue;
+    font-size: xx-large;
+    margin: 2px;
+    text-align: left;
+
+}
+
+.header_btn {
+    float: right;
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    font-size: 15px;
+    padding: 8px;
+    width: 100px;
+    font-family: Arial;
+}
+
+#logo_txt {
+    color: black;
+    margin-left: 2px;
+    margin-top: 2px;
+    font-family: 'Ubuntu Mono', monospace;
+    display: block;
+}
+
