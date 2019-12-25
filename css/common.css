@@ -27,3 +27,23 @@
     display: block;
 }
 
+#btn1 {
+    display: block;
+    margin: auto;
+}
+
+#btn2 {
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+#createpost_btn{
+    background-color: green;
+    color: white;
+    display: block;
+    margin: auto;
+    border: none;
+}
+

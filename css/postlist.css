@@ -1,0 +1,60 @@
+#my_body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #ffeedd; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 2%;
+}
+
+#mainpostdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 45%;
+    margin: 5px auto;
+}
+
+.postowner {
+    width: 20%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postbody {
+    width: 80%;
+    background-color: rgb(216, 214, 214);
+    padding: 2%;
+}
+
+.postdelete_btn {
+    
+    background-color: rgb(216, 214, 214);
+}
+
+.postHeading {
+    width: 90%;
+    float: left;
+
+}
+
+.trashIcon {
+    width: 10%;
+    float: right;
+}
+
+.ellipsis {
+    float: right;
+}
