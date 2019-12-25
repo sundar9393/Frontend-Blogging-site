@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montez|Ubuntu+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/common.css">
+        <link rel="stylesheet" href="../css/post.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <span id="logo">ScriBBler</span>
+            <button type="button" class="header_btn" id="signup_btn" data-toggle="modal" data-target="#exampleModalSignUp">Sign up</button>
+            <button class="header_btn" id="signin_btn" data-toggle="modal" data-target="#exampleModal">Sign in</button> 
+            <p id="logo_txt">Explore, Imagine, Create</p>
+    
+        <!-- Sign in Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Welcome Back</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="form-group has-error">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" required="required" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div  class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" required="required" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="btn1">Sign In</button>
+                            <p style="font-weight: bold;text-align: center;">Not a member ? <a href="#exampleModalSignUp" data-toggle="modal" data-target="#exampleModalSignUp" data-dismiss="modal">Signup</a></p>
+                          </form>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+      <!--Signup Modal -->
+    <div class="modal fade" id="exampleModalSignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Join Us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form>
+                            <div class="form-group has-error">
+                                    <label for="exampleInputName1" style="font-weight: bold;">Name</label>
+                                    <input type="email" class="form-control" required="required" id="exampleInputName1" aria-describedby="emailName" placeholder="Enter Name">
+                                  </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1" style="font-weight: bold;">UserName</label>
+                              <input type="email" class="form-control" required="required" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your username">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1" style="font-weight: bold;">Password</label>
+                              <input type="password" class="form-control" required="required" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                    <label for="exampleInputPassword1" style="font-weight: bold;">Confirm Password</label>
+                                    <input type="password" class="form-control" required="required" id="exampleInputPassword2" placeholder="Re-enter Password">
+                                  </div>
+                            <button type="submit" class="btn btn-primary" id="btn2">Sign Up</button>
+                          </form>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mainbody">
+        <div>
+            <p style="text-align: center; font-weight: bold;">Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+            <p>
+                <span style="float: left; margin:10px 25px;">Shristhi Gupta</span>
+                <span style="float: right;">
+                    <button style="background-color: red; color: white; margin:10px 45px;width:75px;">Edit <i class="fa fa-pencil-square-o"></i></button>
+                </span>
+            </p>
+        </div>
+        <div>
+            <br><br>
+            <p id="postText">
+                Node.js is similar in design to, and influenced by, systems like Ruby's Event Machine and Python's Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop. Typically, behavior is defined through callbacks at the beginning of a script, and at the end a server is started through a blocking call like EventMachine::run(). In Node.js, there is no such start-the-event-loop call. Node.js simply enters the event loop after executing the input script. Node.js exits the event loop when there are no more callbacks to perform. This behavior is like browser JavaScript — the event loop is hidden from the user.
+                HTTP is a first-class citizen in Node.js, designed with streaming and low latency in mind. This makes Node.js well suited for the foundation of a web library or framework.
+                Node.js being designed without threads doesn't mean you can't take advantage of multiple cores in your environment. Child processes can be spawned by using our child_process.fork() API, and are designed to be easy to communicate with. Built upon that same interface is the cluster module, which allows you to share sockets between processes to enable load balancing over your cores.
+            </p>
+        </div>
+        <div class="likeBlogButton">    
+            <button  id= "likeBlogBtn" onclick="postLiked()"><i class="fa fa-thumbs-up"> Like</i></button> 
+            <span id="likeCount">Be the first one to like this!</span>
+        </div>
+        <div id=commentsArea>
+            <textarea placeholder="Add your comments" id="userComments" value=""></textarea>
+            <br><br>
+            <button id="addCommentBtn" onclick="addComments(userComments)">Comment</button>
+        </div>
+        <div id="postedComments">
+            <h5>All Comments</h5>
+
+        </div>
+    </div>
+        <script src="../js/post.js"></script>
+    </body>
+</html>
